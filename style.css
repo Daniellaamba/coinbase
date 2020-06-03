@@ -1,0 +1,40 @@
+/* navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    font-weight: bold;
+    font-size: 12px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 1px solid red;
+    padding-bottom: 3px;
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #333333 !important;
+    font-weight: bold;
+}
+nav img{
+    height:27px;
+}
+.dropdown-menu {
+    background: none !important;
+    padding: 0 !important;
+    left: 70px !important; 
+    min-width: 5.5rem !important;
+}
+.dropdown-item {
+    padding: 5px !important;
+    color: #333333;
+    font-size: 12px !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 1px solid red;
+    width: fit-content !important;
+}
+
+/*Responsive*/
+@media screen and (min-width: 1024px) {
+    .navbar{
+	padding: 20px 100px !important;
+    }
+}
