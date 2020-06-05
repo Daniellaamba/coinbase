@@ -868,3 +868,9 @@ div.newsletter .text{
 }
 
 }
+@media screen and (max-width:420px){
+    .coinbase-image img {
+        max-width: -webkit-fill-available;
+    }
+    
+}
